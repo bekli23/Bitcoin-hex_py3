@@ -22,4 +22,5 @@ end = int(end_str, 16)
 
 with open(filename, 'w') as f:
     for i in range(start, end+1):
-        f.write('{:064x}\n'.format(i))
+        f.write('{:064X}\n'.format(i))
+       # f.write('{:064x}\n'.format(i)) # SMALL CHARACTERS
